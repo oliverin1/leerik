@@ -1,0 +1,69 @@
+html, body {
+	font-family: 'Inter', sans-serif;
+	color: white;
+  height: 100%;
+  width: 100%;
+}
+
+h1, h2 {
+	font-weight: 600 !important;
+}
+
+:root {
+	--letra: #e4d4ff;
+	--accent: #8b3dff;
+	--border: #c7a2ff;
+	--outline: #84719040;
+	--blur-bg: #16101b66;
+}
+
+.gradient {
+	position: absolute;
+	z-index: -1;
+	border-radius: calc(0.5*70vw);
+	background-color: var(--accent);
+	background: radial-gradient(circle at center, var(--accent), var(--accent));
+	width: 70vw;
+	height: 70vw;
+	top: 50%;
+	right: 0;
+	transform: translateY(-50%);
+	filter: blur(calc(0.5*70vw)) opacity(0.3);
+}
+
+.letrainput {
+	border: 1px solid var(--outline);
+	background-color: var(--blur-bg);
+}
+
+.letradropdown {
+	border: 1px solid var(--accent);
+	background-color: var(--blur-bg);
+}
+
+.letramenu {
+	background-color: #37214866;
+}
+
+.card {
+	border: 1px solid var(--outline);
+	background-color: var(--blur-bg);
+}
+
+.letralink {
+	color: var(--accent);
+}
+
+.letratxt {
+	color: var(--letra);
+}
+
+.divider {
+	border-bottom-width: 1px;
+	border-bottom: 1px solid var(--border);
+}
+
+.trackselection:hover {
+	background-color: var(--outline);
+	cursor: pointer;
+}
