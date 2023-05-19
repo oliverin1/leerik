@@ -1,3 +1,3 @@
-# weighted-grade-calculator
+# Leerik
 
-A weighted grade calculator web app
+To be updated
